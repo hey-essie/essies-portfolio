@@ -1,0 +1,27 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #000729;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.site-nav {
+    text-align: right;
+    margin: 10px;
+    margin-top: 25px;
+    display: block;
+}
+
+.nav-link {
+    background-color: #414042;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.profile-picutre {
+    margin: 50px;
+    border-radius: 300px;
+}
