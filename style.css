@@ -1,12 +1,19 @@
 body {
     font-family: "JetBrains Mono", monospace;
-    background-color: #000729;
+    background-color: #101720;
     color: white;
 }
+
 
 a {
     color: white;
 }
+
+
+h1 {
+    font-size: 42px;
+}
+
 
 .site-nav {
     text-align: right;
@@ -15,13 +22,56 @@ a {
     display: block;
 }
 
+
 .nav-link {
     background-color: #414042;
     padding: 10px;
     border-radius: 15px;
 }
 
-.profile-picutre {
-    margin: 50px;
-    border-radius: 300px;
+
+.project-card {
+    max-width: 35ch;
+    text-align: center;
 }
+
+
+.profile-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 325px 0 200px;
+}
+
+
+.profile-projects h2 {
+    flex-basis: 100%;
+}
+
+
+.profile-projects .project-card {
+    margin: 0;
+}
+
+
+.profile-img {
+     border-radius: 300px;
+}
+
+
+.profile-description, .profile-tech {
+    margin-left: 200px;
+    margin-right: 325px;
+    margin-top: 50px;
+}
+
+
+.nova-matter-19-img {
+    border-radius: 15px;
+}
+
+
+.js-img {
+    border-radius: 20px;
+}
+
